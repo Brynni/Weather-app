@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/xml2js": "^0.4.14"
+  },
+  "dependencies": {
+    "events": "^3.3.0"
+  }
+}
