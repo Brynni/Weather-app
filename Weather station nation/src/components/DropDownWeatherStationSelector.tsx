@@ -118,11 +118,9 @@ export const fetchData = async (
                 console.error()
                 setError(`Error parsing XML:${err}`)
             } else {
-                console.log('Parsed JSON:', result)
-
                 // The station data is returning outdated data
                 // Remove the outdated data
-                const currentTime = moment()
+                const currentTime = moment().format("YYYY-MM-DD HH")
                 const filteredStations = result.forecasts.station.filter(
                     (station) => {
                         // Filter the forecasts for the station
@@ -132,7 +130,7 @@ export const fetchData = async (
                                     moment(
                                         singleForecast.ftime,
                                         'YYYY-MM-DD HH:mm:ss',
-                                    ) >= currentTime
+                                    ).format("YYYY-MM-DD HH") >= currentTime
                                 )
                             },
                         )
