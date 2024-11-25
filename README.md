@@ -4,9 +4,10 @@
 0. Open the project in a code editor of your preference
 1. Open a console within the code editor of your choice
 2. Cd into the /Weather station nation folder
-3. In the console type "npm install"
-4. After that finished type "npm run dev"
-5. Now the project should be running on "http://localhost:5173/". Open it within your browser of choice
+3. In the console type "npm install" 
+4. Next type in the console "npm i events"
+5. After that finished type "npm run dev"
+6. Now the project should be running on "http://localhost:5173/". Open it within your browser of choice
 ### Assumptions
 - You already have npm installed
 - You have already cloned the project from Github
