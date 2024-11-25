@@ -11,7 +11,7 @@
 - You already have npm installed
 - You have already cloned the project from Github
 
-
+![Skjámynd 2024-11-25 214656](https://github.com/user-attachments/assets/c367b004-250c-4bbc-b151-34251c918b98)
 
 ## Goals
 
