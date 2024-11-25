@@ -93,7 +93,7 @@ const SingleWeatherStationTable: React.FC<{ selectedStation: Station }> = ({
                             ))}
                         </TableRewind.Tbody>
                     </TableRewind>
-                </>,
+                </>
             )
         }
         return <>{nextElevenDaysElems}</>
